@@ -1,10 +1,10 @@
 import pdb
 
-def func():
-    a = "aaa"
-    b = "bbb"
-    c = "ccc"
-    final = a + b + c
-    return final
+pdb.set_trace()
 
-pdb.run(func())
+a = "aaa"
+b = "bbb"
+c = "ccc"
+
+final = a + b + c
+print(final)
